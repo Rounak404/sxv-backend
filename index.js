@@ -34,14 +34,27 @@ mongoose.set("strictQuery", false);
 const passwordRoutes = require('./routes/password/pwd.routes')
 app.use("/api/password", passwordRoutes)
 
-const port = process.env.PORT || 8000
+// const port = process.env.PORT || 8000
+// mongoose
+//   .connect(process.env.MONGODB_URI)
+//   .then(() => {
+//     app.listen(port, () => {
+//       console.log("connected to db");
+//     });
+//   })
+//   .catch((err) => {
+//     console.log(err);
+//   });
+
+
 mongoose
   .connect(process.env.MONGODB_URI)
   .then(() => {
-    app.listen(port, () => {
-      console.log("connected to db");
-    });
+    console.log("Connected to MongoDB");
   })
-  .catch((err) => {
-    console.log(err);
-  });
+  .catch((err) => console.log(err));
+
+module.exports = app;
+app.listen(process.env.PORT || 8000, () => {
+  console.log("Server is running on port 8000");
+});
