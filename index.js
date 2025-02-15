@@ -11,6 +11,10 @@ app.use(cors({
 app.use(express.json({ extended: true }));
 app.use(express.urlencoded({ extended: true }));
 
+app.get("/",(req,res)=>{
+  res.send("Welcome to sxv be")
+})
+
 // app.use(userRouter)
 const eventRoutes = require("./routes/events/events.routes");
 app.use("/api/events", eventRoutes);
