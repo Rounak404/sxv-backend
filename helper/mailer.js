@@ -30,10 +30,10 @@ const sendEmail = async (email, userId) => {
       html: `
       <html>
       <body style="font-family: 'Courier New', Courier, monospace; text-align: center;">
-      <img src="https://lh3.googleusercontent.com/d/1fF1bNQykjxloIukAnPlaU4th7lJhgqbW=w1000?authuser=0" alt="College Fest Logo" style="width: 150px; height: 100px; object-fit: contain;">
+      <img src="https://res.cloudinary.com/dlm8mel1x/image/upload/v1739813189/sxv/hfm2yuqb9ojsjajsc6r2.png" alt="College Fest Logo" style="width: 150px; height: 100px; object-fit: contain;">
           <h2 style="color: #ff0066;">Welcome to the College Fest!</h2>
           <p style="color: #000;">Howdy, Fellow Fest Goer!</p>
-          <p style="color: #000;">We're thrilled to have you join us for a fun-filled retro and carnival-themed extravaganza!</p>
+          <p style="color: #000;">We're thrilled to have you join us for a fun-filled Halo and Horns-themed extravaganza!</p>
           <p style="color: #000;">Forgot your password by clicking the link below:</p>
           <div style="background-color: #fff; padding: 10px; border-radius: 5px; display: inline-block;">
               <h3 style="color: #ff0066; margin: 0;">Forgot password link:</h3>

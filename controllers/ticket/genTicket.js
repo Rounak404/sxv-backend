@@ -51,6 +51,10 @@ const genTicket = (req, res, next) => {
 
 <body style="width: 650px; margin: 30px 100px;">
     <div style="display: flex; justify-content: center; width: 100%; height: 100%; position: relative;">
+      <div style="position: absolute; top: 40%; right: 150px; color: #000; background-color: #fff; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+  <h1 style="margin: 0;">5</h1>
+</div>
+
         
         <!-- First Image -->
         <img src="https://drive.google.com/thumbnail?id=1N5c3IzrbVWICLv0dkvTn_-UQQlJTcRdG&sz=s800" alt="Logo"
@@ -105,6 +109,10 @@ const genTicket = (req, res, next) => {
 
 <body style="width: 650px; margin: 30px 100px;">
     <div style="display: flex; justify-content: center; width: 100%; height: 100%; position: relative;">
+      <div style="position: absolute; top: 40%; right: 150px; color: #000; background-color: #fff; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+  <h1 style="margin: 0;">15</h1>
+</div>
+
         
         <!-- First Image -->
         <img src="https://drive.google.com/thumbnail?id=1N5c3IzrbVWICLv0dkvTn_-UQQlJTcRdG&sz=s800" alt="Logo"
@@ -160,6 +168,10 @@ const genTicket = (req, res, next) => {
 
 <body style="width: 650px; margin: 30px 100px;">
     <div style="display: flex; justify-content: center; width: 100%; height: 100%; position: relative;">
+      <div style="position: absolute; top: 40%; right: 150px; color: #000; background-color: #fff; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+  <h1 style="margin: 0;">1</h1>
+</div>
+
         
         <!-- First Image -->
         <img src="https://drive.google.com/thumbnail?id=1N5c3IzrbVWICLv0dkvTn_-UQQlJTcRdG&sz=s800" alt="Logo"

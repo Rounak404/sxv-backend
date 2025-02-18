@@ -42,7 +42,7 @@ const sendOTPVerification = async (req, res, next) => {
        <div style="display: flex;justify-content:center; margin-bottom:10px;">
          
          <img
-           src="https://drive.google.com/thumbnail?sz=w1000&id=1fF1bNQykjxloIukAnPlaU4th7lJhgqbW"
+           src="https://res.cloudinary.com/dlm8mel1x/image/upload/v1739813189/sxv/hfm2yuqb9ojsjajsc6r2.png"
            alt=""
            style="height: 60px;margin-right:60px;"
          />
