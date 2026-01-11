@@ -67,6 +67,7 @@ exports.addEvent = async (req, res) => {
     })
   } catch (err) {
     console.error('Error adding event:', err)
+    
     if (err.name === 'ValidationError') {
       return res
         .status(400)

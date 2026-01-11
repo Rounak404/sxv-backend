@@ -4,7 +4,6 @@ const Event = require("../../models/events");
 const getEvents = async (req, res, next) => {
      try {
         const events = await Event.find()
-        console.log("giving events")
         if (!events || events.length === 0) {
             return res.status(404).json({
                 message: 'No events found in the database.',
